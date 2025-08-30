@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mensaje de Agradecimiento</title>
+  <style>
+    body {
+      background-color: #fff0f5;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #5c0a0a;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      overflow: hidden;
+    }
+
+    .card {
+      background-color: #ffe6ec;
+      border-radius: 20px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      padding: 40px;
+      max-width: 600px;
+      text-align: center;
+      animation: fadeInUp 1.2s ease forwards;
+      opacity: 0;
+      transform: translateY(40px);
+    }
+
+    h1 {
+      color: #d6336c;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+
+    .share-btn {
+      margin-top: 25px;
+      padding: 12px 20px;
+      background-color: #25D366;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-size: 16px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      transition: background-color 0.3s ease;
+    }
+
+    .share-btn:hover {
+      background-color: #1eb150;
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Gracias, amor</h1>
+    <p>Gracias por estar, por enseñarme lo fuerte que puedo ser, por sostenerme en los días buenos y en los no tanto.</p>
+    <p>Gracias por tu paciencia y por esas palabras que me animan a seguir adelante.</p>
+    <p>Gracias por caminar a mi lado sin intentar cambiarme, solo apoyarme.</p>
+    <p>Gracias por ser refugio, impulso y paz al mismo tiempo.</p>
+    <p>Si tuviera que elegir de nuevo, y tú me dieras la oportunidad, te elegiría mil veces más.</p>
+
+    <!-- Botón para compartir por WhatsApp -->
+    <a 
+      class="share-btn" 
+      href="https://wa.me/?text=Gracias%20por%20estar%2C%20por%20ense%C3%B1arme%20lo%20fuerte%20que%20puedo%20ser...%20%0Ahttps%3A%2F%2Fmiweb.com"
+      target="_blank"
+    >
+      Compartir por WhatsApp
+    </a>
+  </div>
+</body>
+</html>
