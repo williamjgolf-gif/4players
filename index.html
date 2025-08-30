@@ -2,3 +2,78 @@
 <h1> Esta es mi primera pagina con GitHub Pages </h1>
 <p>¡Gracias GitHub!</p>
 </html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Feliz Cumpleaños, Ricardo!</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+            color: #fff;
+            text-align: center;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px 60px;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            animation: fadeIn 2s ease-in-out;
+        }
+        h1 {
+            font-size: 3.5em;
+            margin-bottom: 0.2em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            animation: pulse 2s infinite;
+        }
+        p {
+            font-size: 1.2em;
+            margin-top: 0;
+        }
+        .message {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin: 20px 0;
+            line-height: 1.5;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        /* Animaciones */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: scale(0.9); }
+            to { opacity: 1; transform: scale(1); }
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>¡Feliz Cumpleaños! 🎉🎂</h1>
+        <div class="image-container">
+            <img src="https://via.placeholder.com/400x300.png?text=Feliz+Cumpleaños+Ricardo" alt="Imagen de cumpleaños">
+        </div>
+        <p class="message">
+            Ricardo, que este nuevo año de vida esté lleno de alegría, éxito, <br> y momentos inolvidables. <br> ¡Que todos tus deseos se hagan realidad!
+        </p>
+        <p>Con mucho cariño,</p>
+        <p>Your Friend.</p>
+    </div>
+</body>
+</html>
